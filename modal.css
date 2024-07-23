@@ -1,0 +1,107 @@
+#output {
+    background-color: darkcyan;
+    color: white;
+    padding: 10px;
+    border: 1px solid darkcyan;
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+#modal {
+    position: relative;;
+}
+
+
+
+.container {
+    width: 30%;
+    left: 35%;
+    top: 30vh;
+    background-color: #fbfbf9;
+    border: 1px solid #8c979f;
+    /* margin-left: 35%;
+    margin-top: 30vh; */
+    border-radius: 10px;
+    display: none;
+}
+
+.header {
+    padding: 10px;
+    border-bottom: 1px solid #8c979f;
+}
+
+
+span {
+    margin-left: 20.5vw;
+}
+
+span:hover {
+    color: gray;
+}
+
+.body {
+    padding: 10px;
+    border-bottom: 1px solid #8c979f;
+}
+
+.footer {
+    padding: 10px;
+    text-align-last: end;
+}
+
+
+.close {
+    padding: 5px;
+    background-color: gray;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: white;
+}
+
+.close:hover {
+    box-shadow: 0px 0px 5px 2px rgb(182, 181, 181);
+}
+
+
+
+.save {
+    padding: 5px;
+    background-color: darkcyan;
+    border: 1px solid darkcyan;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.save:hover {
+    box-shadow: 0px 0px 5px 2px rgb(1, 177, 177);
+}
+
+
+
+/* fallback */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url("./assest/icons/material/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2") format('woff2');
+  }
+  
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+  }
+  
